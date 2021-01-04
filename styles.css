@@ -58,4 +58,7 @@ button {
 
 footer {
     flex-shrink:0;
+    background-color: lightgray;
+    margin: 0;
+    padding:16px 0;
 }
