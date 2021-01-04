@@ -39,10 +39,31 @@ img {
 
 input {
     display: flex;
-    margin: 20px auto;
+    margin: 0;
     border-radius: 8px;
     font-size: 15px;
     padding: 5px 30px;
+    border: none;
+
+}
+
+form{ 
+    border: none;
+}
+
+form button {
+    background: none;
+}
+
+.search-bar {
+    margin: 10px 30%;
+    border: #dfe1e5 1px solid;
+    display: flex;
+    border-radius: 24px;
+}
+
+.search {
+    width: 13px;
 }
 
 .buttons {
@@ -54,11 +75,40 @@ button {
     margin: 0px 10px;
     border: none;
     padding: 5px;
+    border-radius: 4px;
+    color: #5F6368;
+    font-family: arial,sans-serif;
+    border: 1px solid #f2f2f2;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+
+    min-width: 54px;
+    text-align: center;
+}
+
+.buttons button{
+    height: 36px;
 }
 
 footer {
     flex-shrink:0;
-    background-color: lightgray;
+    background-color: rgb(239, 239, 239);
     margin: 0;
-    padding:16px 0;
+    padding:0;
+    display: flex;
+    justify-content: space-between;
+    line-height: 40px;;
+}
+
+a{
+    text-decoration: none;
+    color: #5f6368;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+}
+
+a:hover {
+    text-decoration: underline;
 }
